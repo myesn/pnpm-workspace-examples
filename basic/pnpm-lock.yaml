@@ -1,10 +1,17 @@
 lockfileVersion: 5.4
 
-specifiers:
-  dayjs: ^1.11.5
+importers:
 
-dependencies:
-  dayjs: 1.11.5
+  .:
+    specifiers:
+      a: workspace:*
+      dayjs: ^1.11.5
+    dependencies:
+      a: link:packages/a
+      dayjs: 1.11.5
+
+  packages/a:
+    specifiers: {}
 
 packages:
 
