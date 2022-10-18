@@ -5,12 +5,17 @@ importers:
   .:
     specifiers:
       a: workspace:*
+      b: workspace:*
       dayjs: ^1.11.5
     dependencies:
       a: link:packages/a
+      b: link:packages/b
       dayjs: 1.11.5
 
   packages/a:
+    specifiers: {}
+
+  packages/b:
     specifiers: {}
 
 packages:

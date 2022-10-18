@@ -1,5 +1,5 @@
 {
-  "name": "basic",
+  "name": "b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "a": "workspace:*",
-    "b": "workspace:*",
-    "dayjs": "^1.11.5"
-  }
+  "license": "ISC"
 }
